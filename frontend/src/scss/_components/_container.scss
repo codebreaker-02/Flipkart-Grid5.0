@@ -1,0 +1,216 @@
+@use "../_partials/mixins" as *;
+@use "../_partials/variables" as *;
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    > * {
+        display: flex;
+    }
+}
+
+.TopContent {
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+}
+
+.HeroSection {
+    .TopContent > .LeftSideContent {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        .SiteHeadingOne {
+            @include HeadingOneTypography;
+            color: $BrightGray;
+        }
+        .SiteHeroParagraph {
+            @include BodyTypography;
+            color: $BrightGray;
+        }
+        .Buttons {
+            display: flex;
+            gap: 30px;
+            .CTAButton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3px;
+                height: 60px;
+                width: 225.25px;
+                border-radius: 30px;
+                outline: none;
+                border: none;
+                background-color: $DeepKoamaru;
+                @include CTAButtonTypography;
+            }
+            .SellNFTsCTAButton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3px;
+                height: 60px;
+                width: 225.25px;
+                border-radius: 30px;
+                outline: none;
+                border: 1px solid $MiddleBlueGreen;
+                background-color: transparent;
+                @include CTAButtonTypography;
+            }
+            .
+        }
+    }
+    .FeaturedOnContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 30px 0;
+        .FeaturedOnTitle {
+            @include BodyTypography;
+            color: $BrightGray;
+        }
+        .FeaturedOnLogos {
+            display: flex;
+            gap: 65px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .TopContent > .RightSideContent > .RightSideImg {
+        height: 100%;
+        width: 100%;
+    }
+    .TopContent > .RightSideContent > .RightSideImg > img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.PricingButton,
+.SellButton,
+.AppButton,
+.CTAButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 60px;
+    width: 225.25px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: $DeepKoamaru;
+    @include CTAButtonTypography;
+}
+
+h2 {
+    @include HeadingTwoTypography;
+    color: $BrightGray;
+}
+
+.SubtitleContent {
+    @include SubHeadingTypography;
+    color: $BrightGray;
+}
+
+.AnalyticsContent,
+.AppContent,
+.SellContent {
+    @include BodyTypography;
+    color: $BrightGray;
+}
+
+.LeftSideContent,
+.RightSideContent {
+    flex: 1 1 0px;
+}
+
+.TestimonialSection {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.CTASection {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.AnalyticsImg,
+.AppImg,
+.SellImg {
+    margin: 20px 0;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #31296433, #31296433);
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.AnalyticsSection,
+.AppSection,
+.SellSection {
+    align-items: center;
+}
+
+.AccentColor {
+    color: $MiddleBlueGreen;
+}
+
+.BackgroundBlurObject1 {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: -162px;
+    top: -486px;
+    background: $DeepKoamaru;
+    opacity: 0.7;
+    filter: blur(77.5px);
+    z-index: -1;
+}
+
+/* .BackgroundBlurObject2 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    right: -206px;
+    top: 367px;
+    background: $MiddleBlueGreen;
+    opacity: 0.5;
+    filter: blur(77px);
+} */
+
+.BackgroundBlurObject2 {
+    position: absolute;
+    top: 367px;
+    right: 0;
+}
+
+.BackgroundBlurObject3{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: -162px;
+    bottom: -268px;
+    background: $DeepKoamaru;
+    opacity: 0.7;
+    filter: blur(77.5px);
+    z-index: -1;
+}
