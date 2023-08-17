@@ -60,32 +60,56 @@ button {
                 background-color: transparent;
                 @include CTAButtonTypography;
             }
-            .
         }
     }
-    .FeaturedOnContent {
+    .TrustedPartnersContent {
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 15px;
         padding: 30px 0;
-        .FeaturedOnTitle {
+        
+        .TrustedPartnersTitle {
             @include BodyTypography;
             color: $BrightGray;
         }
-        .FeaturedOnLogos {
-            display: flex;
-            gap: 65px;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+    }
+    @keyframes slide {
+        from {
+            transform: translateX(0);
         }
+        to {
+            transform: translateX(-120%);
+        }
+    }
+    
+    .logos {
+        overflow: hidden;
+        padding: 20px 0;
+        white-space: nowrap;
+        position: relative;
+    }
+    .logos:hover .logos-slide {
+        animation-play-state: paused;
+    }
+    
+    .logos-slide {
+        display: inline-block;
+        animation: 35s slide infinite linear;
+    }
+    
+    .logos-slide img {
+        filter: brightness(0) invert(1);
+        display: inline-block;
+        height: 30px;
+        margin: 0 40px;
     }
     .TopContent > .RightSideContent > .RightSideImg {
         height: 100%;
         width: 100%;
     }
-    .TopContent > .RightSideContent > .RightSideImg > img {
+    .TopContent > .RightSideContent > .RightSideImg > .animation1{
         height: 100%;
         width: 100%;
         object-fit: contain;
@@ -158,7 +182,8 @@ h2 {
 .SellImg {
     margin: 20px 0;
     border-radius: 15px;
-    background: linear-gradient(0deg, #31296433, #31296433);
+    // background: linear-gradient(0deg, #31296433, #31296433); //Original-Color(Dark-grey) of design
+    // filter: brightness(70%);
     object-fit: contain;
     height: 100%;
     width: 100%;
@@ -175,42 +200,49 @@ h2 {
 }
 
 .BackgroundBlurObject1 {
-    position: absolute;
+    position: fixed;
     width: 700px;
     height: 700px;
     left: -162px;
     top: -486px;
     background: $DeepKoamaru;
     opacity: 0.7;
-    filter: blur(77.5px);
+    filter: blur(120.5px);
     z-index: -1;
 }
 
-/* .BackgroundBlurObject2 {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    right: -206px;
-    top: 367px;
-    background: $MiddleBlueGreen;
-    opacity: 0.5;
-    filter: blur(77px);
-} */
+//  .BackgroundBlurObject2 {
+//     position: absolute;
+//     width: 350px;
+//     height: 350px;
+//     right: 0;
+//     top: 597px;
+//     background: $MiddleBlueGreen;
+//     opacity: 0.5;
+//     filter: blur(77px);
+// }
 
-.BackgroundBlurObject2 {
-    position: absolute;
-    top: 367px;
-    right: 0;
-}
+// .BackgroundBlurObject2 {
+//     position: absolute;
+//     top: 367px;
+//     right: 0;
+//     filter: hue-rotate(160deg);
+//     // background: $DeepKoamaru;
+//     // filter: blur(77px);
+// }
 
 .BackgroundBlurObject3{
-    position: absolute;
-    width: 700px;
-    height: 500px;
-    left: -162px;
-    bottom: -268px;
-    background: $DeepKoamaru;
+    position: fixed;
+    width: 338px;
+    height: 420px;
+    // left: -162px;
+    right: 0    ;
+    bottom: 0;
+    background: $MiddleBlueGreen2;
     opacity: 0.7;
-    filter: blur(77.5px);
+    filter: blur(120.5px);
     z-index: -1;
 }
+
+
+  

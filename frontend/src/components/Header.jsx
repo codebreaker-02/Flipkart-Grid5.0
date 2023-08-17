@@ -1,5 +1,6 @@
 import { useState } from "react";
-// import brandLogo from "../assets/logos/logo.svg";
+import brandLogo from "../assets/images/logoRC.png";
+import Button from "./Button";
 
 const Header = () => {
 
@@ -18,8 +19,7 @@ const Header = () => {
 
     return (
         <header className="Header">
-            {/* <img src={ brandLogo } className="filter-white"></img> */}
-            <span className="brandLogoSpan">REWARDS CLUB</span>
+            <span className="brandLogoSpan">REWARDS CLUB <img src={ brandLogo } className="brandLogo"></img></span>
             <nav className="HeaderNav">
                 <ul className={ active }>
                     <li className="HeaderNavListItem">about</li>
@@ -33,11 +33,11 @@ const Header = () => {
                     <span className="ToggleLine"></span>
                 </button>
             </nav>
-            <button className="CTAButton">
-                <span className="AnimatedPulseFront"></span>
+            {/* <div className="CTAButton flex items-center">
+                <Button text={<div className="CTAButton"><span className="AnimatedPulseFront"></span>
                 <span className="AnimatedPulseBack"></span>
-                <p className="CTAName">buy nfts</p>
-            </button>
+                <p className="CTAName">buy nfts</p></div>} onClick={(e)=>{console.log('clicked '+e.target.innerText)}} />
+            </div> */}
         </header>
     )
 };

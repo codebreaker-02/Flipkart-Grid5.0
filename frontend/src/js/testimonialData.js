@@ -16,5 +16,35 @@ export default [
         img: '3.jpg',
         description: 'lorem ipsum dolor sit amel consectetur adipiscing elit. nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
         name: 'Jessica Page'
+    },
+    {
+        key: 4,
+        img: '4.jpg',
+        description: 'lorem ipsum dolor sit amel consectetur adipiscing elit. nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
+        name: 'Jessica Page'
+    },
+    {
+        key: 5,
+        img: '5.jpg',
+        description: 'lorem ipsum dolor sit amel consectetur adipiscing elit. nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
+        name: 'Jessica Page'
+    },
+    {
+        key: 6,
+        img: '6.jpg',
+        description: 'lorem ipsum dolor sit amel consectetur adipiscing elit. nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
+        name: 'Jessica Page'
+    },
+    {
+        key: 7,
+        img: '7.jpg',
+        description: 'lorem ipsum dolor sit amel consectetur adipiscing elit. nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
+        name: 'Jessica Page'
+    },
+    {
+        key: 8,
+        img: '8.jpg',
+        description: 'lorem ipsum dolor sit amel consectetur adipiscing elit. nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
+        name: 'Jessica Page'
     }
 ]

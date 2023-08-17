@@ -34,7 +34,7 @@ const FaqSection = () => {
     <section className="home__faq flex flex-col items-center m-14 max-md:m-8 text-white">
       <div className="home__top-titles flex flex-col text-center m-16 max-md:mx-8 max-md:my-0">
         <p className="text-5xl font-bold tracking-wide max-md:text-2xl">
-          Frequently <span className="font-extrabold text-[#86cfd0]">asked</span>{' '}
+          Frequently <span className="font-extrabold text-rose-500">asked</span>{' '}
           questions
         </p>
         <p className="m-5 text-lg text-gray-600 dark:text-gray-400 max-md:text-sm">
@@ -55,21 +55,21 @@ const FaqSection = () => {
             >
               <div className="flex items-center text-1xl max-sm:text-base">
                 <SvgQuestionMark className="fill-gray-700 dark:fill-gray-400 w-6 h-6 mr-2 shrink-0" />
-                What is NFTrade?
+                What is REWARDS CLUB?
               </div>
             </AccordionHeader>
             <AccordionBody className="text-[15px] text-gray-600 dark:text-gray-400">
-              NFTrade is a project made by a group of 8 students of{' '}
+              REWARDS CLUB is a project made by a group of 3 students of{' '}
               <a
-                href="https://www.soyhenry.com"
+                href="https://www.graphicerahilluniversity.com"
                 target="_blank"
                 rel="noreferrer"
                 className="underline text-blue-600"
               >
-                Henry Bootcamp
+                Graphic Era University
               </a>
-              . The project was based on creating an NFT Marketplace using
-              Next.JS, TypeScript, Tailwind, PostgreSQL & Prisma implementing
+              . The project was based on creating an FT Marketplace using
+              ReactJS, Solidity, Tailwind, PostgreSQL & Prisma implementing
               Stripe API as the payments platform.
             </AccordionBody>
           </Accordion>
@@ -85,16 +85,15 @@ const FaqSection = () => {
             >
               <div className="flex items-center text-1xl max-sm:text-base">
                 <SvgQuestionMark className="fill-gray-700 dark:fill-gray-400 w-6 h-6 mr-2 shrink-0" />
-                What is an NFT?
+                What is a Club-Coin?
               </div>
             </AccordionHeader>
             <AccordionBody className="text-[15px] text-gray-600 dark:text-gray-400">
-              A non-fungible token (NFT) is a unique digital identifier that
-              cannot be copied, substituted, or subdivided, that is recorded in
+              A Club-Coin is a fungible token (FT) which is a unique digital identifier that is recorded in
               a blockchain, and that is used to certify authenticity and
-              ownership. The ownership of an NFT is recorded in the blockchain
-              and can be transferred by the owner, allowing NFTs to be sold and
-              traded.
+              ownership. The ownership of an FT is recorded in the blockchain
+              and can be transferred by the owner, allowing FTs to be 
+              traded for rewards.
             </AccordionBody>
           </Accordion>
           <Accordion
@@ -109,11 +108,11 @@ const FaqSection = () => {
             >
               <div className="flex items-center text-1xl max-sm:text-base">
                 <SvgQuestionMark className="fill-gray-700 dark:fill-gray-400 w-6 h-6 mr-2 shrink-0" />
-                How can I buy an NFT?
+                How can I earn more Club-Coin?
               </div>
             </AccordionHeader>
             <AccordionBody className="text-[15px] text-gray-600 dark:text-gray-400">
-              First, you must create an account, then buy credits by joining the dashboard. Finally, start exploring the marketplace and buy your NFTs!
+              First, you must create an account, then you can earn club-coins by products from our website, or by playing various games in the Games section. 
             </AccordionBody>
           </Accordion>
         </Fragment>

@@ -26,23 +26,24 @@
             }
         }
     }
-    .CTAButton {
+    .CTAButton{
         display: flex;
         align-items: center;
         justify-content: center;
+        white-space: nowrap;
         gap: 3px;
-        height: 45px;
-        width: 135px;
+        height: fit-content;
+        width: fit-content;
         border-radius: 27.5px;
         outline: none;
         border: none;
-        background-color: $DeepKoamaru;
+        background-color: transparent;
         @include CTAButtonTypography;
         cursor: pointer;
         .AnimatedPulseFront {
             width: 10px;
             height: 10px;
-            background-color: $Ceil;
+            background-color: $MiddleBlueGreen;
             border-radius: 50%;
             filter: blur(2px);
             position: relative;
@@ -55,6 +56,14 @@
             width: 20px;
             border-radius: 50%;
             animation: pulse-animation 1.5s infinite;
+        }
+        :hover{
+            .AnimatedPulseFront{
+                background-color: #09121D;
+            }
+            .AnimatedPulseBack{
+                animation: pulse-animation2 1.5s infinite;
+            }
         }
     }
 }
@@ -135,21 +144,37 @@
 
 @keyframes pulse-animation {
     0% {
-        box-shadow: 0 0 0 0px #010922;
+        box-shadow: 0 0 0 0px $MiddleBlueGreen;
     }
     50% {
-        box-shadow: 0 0 0 7px #010922;
+        box-shadow: 0 0 0 7px $MiddleBlueGreen;
         filter: blur(7px);
     }
     100% {
-        box-shadow: 0 0 0 0px #010922;
+        box-shadow: 0 0 0 0px $MiddleBlueGreen;
+    }
+}
+@keyframes pulse-animation2 {
+    0% {
+        box-shadow: 0 0 0 0px #09121D;
+    }
+    50% {
+        box-shadow: 0 0 0 7px #09121D;
+        filter: blur(7px);
+    }
+    100% {
+        box-shadow: 0 0 0 0px #09121D;
     }
 }
 
-.filter-white{
-    filter: brightness(0) invert(1);
-}
+// .filter-white{
+//     filter: brightness(0) invert(1);
+// }
 
+.brandLogo{
+    width: 50px;
+    height: 50px;
+}
 .brandLogoSpan{
     font-family: Poppins;
     color: black;

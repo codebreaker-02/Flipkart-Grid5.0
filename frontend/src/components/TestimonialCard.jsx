@@ -36,7 +36,7 @@ const TestimonialCard = () => {
             <SwiperSlide className="TestimonialCard" key={ user.id }>
                 <div>
                     <img className="TestimonialImage" src={ `/TestimonialImg-${ user.img }` }></img>
-                    <div className='TestimonialBody'>
+                    <div className='TestimonialBody bg-gray-800/40'>
                         <p className="TestimonialQuote">{ user.description }</p>
                         <p className="TestimonialName">{ user.name }</p>
                     </div>

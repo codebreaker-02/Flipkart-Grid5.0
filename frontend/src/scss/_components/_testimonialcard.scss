@@ -10,7 +10,8 @@
 }
 
 .TestimonialBody {
-    background: $CetaceanBlue;
+    // background: $CetaceanBlue; //Original-Design
+    // background: linear-gradient(0deg, #31296433, #31296433);
     border-radius: 25px;
     padding: 50px;
     .TestimonialQuote {
