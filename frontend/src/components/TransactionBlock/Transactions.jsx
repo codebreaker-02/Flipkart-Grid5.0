@@ -1,21 +1,10 @@
 import React from 'react'
 
-const Posts = ({ posts, loading}) => {
+const Transactions = ({ transactions, loading}) => {
     if(loading){
         return <h2>Loading...</h2>
     }
   return (
-//    <ul className='new'>
-//     {
-//         posts.map(post => (
-//             <li key={post.id} className='new'>
-//                 {post.amount}
-//             </li>
-//         ))
-//     }
-//    </ul>
-
-
     <table className='table-auto text-white '>
         <thead className='text-rose-500' style={{fontFamily:'Poppins'}}>
             <tr className='text-xs'>
@@ -29,15 +18,15 @@ const Posts = ({ posts, loading}) => {
             </tr>
         </thead>
         <tbody>
-            {posts.map(post => (
+            {transactions.map(transaction => (
                 <tr>
-                    <td>{ post.id }</td>
-                    <td>{ post.amount }</td>
-                    <td>{ post.offerId }</td>
-                    <td>{ post.otherPartyAddress }</td>
-                    <td>{ post.otherPartyName }</td>
-                    <td>{ post.transactionNature }</td>
-                    <td>{ post.transactionType }</td>
+                    <td>{ transaction.id }</td>
+                    <td>{ transaction.amount }</td>
+                    <td>{ transaction.offerId }</td>
+                    <td>{ transaction.otherPartyAddress }</td>
+                    <td>{ transaction.otherPartyName }</td>
+                    <td>{ transaction.transactionNature }</td>
+                    <td>{ transaction.transactionType }</td>
                 </tr>
             ))}
         </tbody>
@@ -45,4 +34,4 @@ const Posts = ({ posts, loading}) => {
   )
 }
 
-export default Posts
+export default Transactions

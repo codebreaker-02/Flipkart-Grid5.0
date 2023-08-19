@@ -32,11 +32,11 @@ const Header = () => {
                     <span className="ToggleLine"></span>
                     <span className="ToggleLine"></span>
                 </button>
-            <div className="CTAButton flex items-center">
+            {/* <div className="CTAButton flex items-center">
                 <Button text={<div className="CTAButton"><span className="AnimatedPulseFront"></span>
                 <span className="AnimatedPulseBack"></span>
                 <p className="CTAName">buy nfts</p></div>} onClick={(e)=>{console.log('clicked '+e.target.innerText)}} />
-            </div>
+            </div> */}
             </nav>
         </header>
     )

@@ -42,7 +42,6 @@ const HeroSection = () => {
                     <p className="SiteHeroParagraph">the safest haven for trading <span className="AccentColor">Fungible Tokens</span> and unlocking rewards</p>
                     <div className="Buttons flex items-center">
                         <button className="CTAButton">BUY NFTS</button>
-                        {/* <button className="SellNFTsCTAButton">SELL NFTS</button> */}
                         <Button text={'SELL NFTs'} onClick={(e)=>{console.log('clicked '+e.target.innerText)}}/>
                     </div>
                 </div>
@@ -90,17 +89,16 @@ const HeroSection = () => {
             <div className="RightSideContent">
                 {/* <img className="AppImg bg-gradient-to-r from-rose-500 to-purple-500/70" src={ appImg }></img> */}
                 <div className="AppImg img_slider bg-gradient-to-r from-rose-500/70 to-purple-500/70">
-                    <img class="img_slider3" src={img_slider3}></img>
-                    {/* <div className="img_slider_div">
+                    {/* <img class="img_slider3" src={img_slider3}></img> */}
+                    {/* <div className="img_slider_div"> */}
                         <img class="img_slider_in rocket" src={rocket}></img>
                         <img class="img_slider_in man" src={man}></img>
-                    </div> */}
+                    {/* </div> */}
                 </div>
             </div>
         </section>
         <section className="SellSection">
             <div className="LeftSideContent">
-                {/* <img className="SellImg bg-gradient-to-r from-rose-500 to-purple-500" src={ sellImg }></img> */}
                 <div class="SellImg image bg-gradient-to-r from-rose-500/70 to-purple-500/70">
                     <img class="img_main" src={Furore} />
                     <div class="icon icon1">
