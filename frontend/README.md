@@ -1,25 +1,13 @@
 <div align="center">
 
-<h1>React - KRYPTO Responsive Web Page</h1>
-
-![](https://api.checklyhq.com/v1/badges/checks/1d25da9e-f2a2-4580-9288-7cd740f3c908?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/1d25da9e-f2a2-4580-9288-7cd740f3c908?style=for-the-badge&theme=dark&responseTime=true)
-
-![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-KRYPTO-Responsive-Web-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-KRYPTO-Responsive-Web-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-KRYPTO-Responsive-Web-Page?color=blueviolet&style=for-the-badge&labelColor=000)
-
-
-![Project-Cover](https://github.com/asbhogal/React-KRYPTO-Responsive-Web-Page/blob/main/src/assets/GitHub%20Repo%20README%20Image%20-%20KRYPTO%20Responsive%20Web%20Page.png)
+<h1>React - REWARDS CLUB Responsive Web Page</h1>
 
 </div>
 
-A single web page for an NFT-management platform and app called KRYPTO.
-
-This project is in two parts:
-
- 1. A mockup of 5 responsive screens created in Figma (components and auto-layout)
- 2. A responsive webpage rendered from these mockups using React, SASS and Vite and deployed via Vercel
+A single web page for a reward loyalty platform and app called REWARDS CLUB.
 
  <strong>:heavy_check_mark: Features:</strong><br>
-  - Designed from Figma mockups
+  - Blockchain based
   - <code>.map()</code> to render Testimonial data from respective .js files
   - Fully responsive
   - Optimised for the web
@@ -37,8 +25,7 @@ This project is in two parts:
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
 
 <strong>:link: Links</strong><br>
- - <a target="_blank" href="https://krypto-site.vercel.app">KRYPTO - Responsive Web Page</a>
- - <a target="_blank" href="https://www.figma.com/community/file/1188263961246625436">Figma Community Project Templates</a>
+ - <a target="_blank" href="#">REWARDS CLUB - Responsive Web Page</a>
 
 <strong>Attributions</strong>
 
@@ -46,4 +33,4 @@ This project is in two parts:
 
 <strong>Disclaimer</strong>
 
- The name 'KRYPTO' used herein is solely fictional and any representation to an existing company, in part or whole, is entirely coincidental.
+ The name 'REWARDS CLUB' used herein is solely fictional and any representation to an existing company, in part or whole, is entirely coincidental.
