@@ -20,8 +20,8 @@ const App = () => {
                 </Routes>
             </BrowserRouter> */}
             <Header />
-            {/* <Container component={<GameSection />}/> */}
-            <Container component={<HeroSection />}/>
+            <Container component={<GameSection />}/>
+            {/* <Container component={<HeroSection />}/> */}
             
             {/* <Container component={<TransactionBlock />} /> */}
             <Footer />
