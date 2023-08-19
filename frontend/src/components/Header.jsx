@@ -1,5 +1,5 @@
 import { useState } from "react";
-import brandLogo from "../assets/images/logoRC.png";
+import brandLogo from "../assets/animations/coin.gif";
 import Button from "./Button";
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
 
     return (
         <header className="Header">
-            <span className="brandLogoSpan">REWARDS CLUB <img src={ brandLogo } className="brandLogo"></img></span>
+            <span className="brandLogoSpanHeader">REWARDS CLUB <img src={ brandLogo } className="brandLogo"></img></span>
             <nav className="HeaderNav">
                 <ul className={ active }>
                     <li className="HeaderNavListItem">about</li>
@@ -32,12 +32,12 @@ const Header = () => {
                     <span className="ToggleLine"></span>
                     <span className="ToggleLine"></span>
                 </button>
-            </nav>
-            {/* <div className="CTAButton flex items-center">
+            <div className="CTAButton flex items-center">
                 <Button text={<div className="CTAButton"><span className="AnimatedPulseFront"></span>
                 <span className="AnimatedPulseBack"></span>
                 <p className="CTAName">buy nfts</p></div>} onClick={(e)=>{console.log('clicked '+e.target.innerText)}} />
-            </div> */}
+            </div>
+            </nav>
         </header>
     )
 };

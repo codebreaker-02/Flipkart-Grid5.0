@@ -1,0 +1,27 @@
+.pagination{
+    display: flex;
+}
+.page-link{
+    margin: 5px;
+}
+.page-item{
+    border: 1px solid;
+}
+
+
+
+tbody,
+thead,
+th,
+tr,
+td{
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+thead tr{
+    white-space: nowrap;
+}

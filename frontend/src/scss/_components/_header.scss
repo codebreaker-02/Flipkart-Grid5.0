@@ -109,6 +109,17 @@
     }
 }
 
+.brandLogo{
+    width: 30px;
+    height: 30px;
+}
+.brandLogoSpanHeader{
+    color: white;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
 /****** RESPONSIVE TOGGLE *****/
 
 @media only screen and (width <= 655px) {
@@ -133,6 +144,11 @@
         transform: translateY(-100%);
         transition: $Transition-03;
         z-index: 1;
+    }
+    .brandLogo{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
     }
 }
 
@@ -171,14 +187,3 @@
 //     filter: brightness(0) invert(1);
 // }
 
-.brandLogo{
-    width: 50px;
-    height: 50px;
-}
-.brandLogoSpan{
-    font-family: Poppins;
-    color: black;
-    font-weight: bolder;
-    font-size: 25px;
-    letter-spacing: 3px;
-}

@@ -1,4 +1,4 @@
-<div class="max-md:hidden flex justify-end items-center w-full">
+{/* <div class="max-md:hidden flex justify-end items-center w-full">
     <div class="navbar__buttons flex items-center text-white">
     <div class="flex max-xl:hidden ease duration-150 justify-between">
     <a href="/collectionmarket">
@@ -35,4 +35,69 @@
     </div>
     </button>
     </div>
+</div> */}
+
+
+//gaming 
+{/* <div class="image">
+<img class="img_main" src="assets/images/slider/Furore.png" alt="">
+<div class="icon icon1">
+    <img src="./assets//images//slider/icon_1.png" alt="">
 </div>
+<div class="icon icon2">
+    <img src="./assets//images//slider/icon_2.png" alt="">
+</div>
+<div class="icon icon3">
+    <img src="./assets//images//slider/icon_3.png" alt="">
+</div>
+
+</div> */}
+
+<footer class="footer">
+  <div class="container">
+    <div class="ant-row" style="row-gap: 43px;">
+      <div class="ant-col ant-col-md-10" style="">
+        <div class="footer__title">Join our weekly digest!</div>
+        <div class="footer__description">Get exclusive promotions &amp; updates straight to your inbox.</div>
+        <form action="#" class="email-subscribe">
+          <div class="form-item">
+            <input maxlength="256" name="email" type="text" placeholder="Enter your email" class="ant-input" value="" />
+          </div>
+          <button type="submit" class="ant-btn button-submit">
+            <span>Subscribe</span>
+          </button>
+        </form>
+        <a href="https://app.nftify.network/register?step=SIGN_UP" target="_blank" rel="noreferrer">
+          <button type="button" class="ant-btn ant-btn-primary button-create-store">
+            <span>Create FREE Store</span>
+          </button>
+        </a>
+      </div>
+      <div class="ant-col ant-col-md-14" style="">
+        <div class="ant-row" style="row-gap: 24px; margin-left: -10px; margin-right: -10px;">
+          <div class="ant-col col--sub ant-col-xs-12 ant-col-md-6" style="padding-left: 10px; padding-right: 10px;">
+            <div class="title-footer-col">FEATURES</div>
+            <a href="/features/build-nft-store"> Build Store</a>
+            <a href="/features/sell-nfts"> Sell NFT</a>
+            <a href="/features/grow-nft-business"> Grow Business</a>
+          </div>
+          {/* <!-- Other columns omitted for brevity --> */}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer__copyright">
+      <div class="column column-left">© Copyright NFTify Network. All Rights Reserved.</div>
+      <div class="column social">
+        <span class="title">The Leading No-code NFT Marketplace Solution</span>
+        <ul class="list">
+          {/* <!-- Social media links omitted for brevity --> */}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+{/* 0 */}

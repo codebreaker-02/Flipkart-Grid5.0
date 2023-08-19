@@ -17,7 +17,14 @@ import TestimonialCard from "@/components/TestimonialCard";
 import Lottie from 'lottie-react'
 import blockchain1 from "../assets/animations/blockchain-2.json"
 import Button from "./Button";
-
+import Typical from "react-typical";
+import Furore from "../assets/images/Furore.png"
+import icon1 from "../assets/images/icon_1.png"
+import icon2 from "../assets/images/icon_2.png"
+import icon3 from "../assets/images/icon_3.png"
+import img_slider3 from "../assets/images/img_slider3.png"
+import rocket from '../assets/images/rocket.png'
+import man from "../assets/images/man.png"
 
 const HeroSection = () => {
   return (
@@ -25,7 +32,13 @@ const HeroSection = () => {
         <section className="HeroSection">
             <div className="TopContent">
                 <div className="LeftSideContent Info">
-                    <h1 className="SiteHeadingOne">earn,<br/> <span className="AccentColor">redeem,</span> repeat with rewards</h1>
+                    <h1 className="SiteHeadingOne">earn,<br/> <span className="AccentColor">redeem,</span> repeat with 
+                        <Typical
+                        steps={[' rewards', 1000, ' ',500,  ' tokens', 1000, ' gift-cards',500]}
+                        loop={Infinity}
+                        wrapper="span"
+                        />
+                    </h1>
                     <p className="SiteHeroParagraph">the safest haven for trading <span className="AccentColor">Fungible Tokens</span> and unlocking rewards</p>
                     <div className="Buttons flex items-center">
                         <button className="CTAButton">BUY NFTS</button>
@@ -75,12 +88,31 @@ const HeroSection = () => {
                 <button className="AppButton">DOWNLOAD ON iOS</button>
             </div>
             <div className="RightSideContent">
-                <img className="AppImg bg-gradient-to-r from-rose-500 to-purple-500" src={ appImg }></img>
+                {/* <img className="AppImg bg-gradient-to-r from-rose-500 to-purple-500/70" src={ appImg }></img> */}
+                <div className="AppImg img_slider bg-gradient-to-r from-rose-500/70 to-purple-500/70">
+                    <img class="img_slider3" src={img_slider3}></img>
+                    {/* <div className="img_slider_div">
+                        <img class="img_slider_in rocket" src={rocket}></img>
+                        <img class="img_slider_in man" src={man}></img>
+                    </div> */}
+                </div>
             </div>
         </section>
         <section className="SellSection">
             <div className="LeftSideContent">
-                <img className="SellImg bg-gradient-to-r from-rose-500 to-purple-500" src={ sellImg }></img>
+                {/* <img className="SellImg bg-gradient-to-r from-rose-500 to-purple-500" src={ sellImg }></img> */}
+                <div class="SellImg image bg-gradient-to-r from-rose-500/70 to-purple-500/70">
+                    <img class="img_main" src={Furore} />
+                    <div class="icon icon1">
+                        <img src={icon1} />
+                    </div>
+                    <div class="icon icon2">
+                        <img src={icon2} />
+                    </div>
+                    <div class="icon icon3">
+                        <img src={icon3} />
+                    </div>
+                </div>
             </div>
             <div className="RightSideContent Info">
                 <p className="SubtitleContent">24&#47;7 access</p>
