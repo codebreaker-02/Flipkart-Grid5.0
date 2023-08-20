@@ -54,16 +54,16 @@ const HeroSection = () => {
             </div>
             <div className="RightSideContent Info">
                 <p className="SubtitleContent">analytics</p>
-                <h2 className="AnalyticsHeading">built-in analytics to track your NFTs</h2>
-                <p className="AnalyticsContent">Use our built-in analytics dashboard to pull valuable insights and monitor the value of your Krypto portfolio over time</p>
+                <h2 className="AnalyticsHeading">blockchain-powered loyalty at its finest</h2>
+                <p className="AnalyticsContent">Earn and enjoy rewards with confidence. Our blockchain ensures transparent, secure transactions for your loyalty.</p>
                 <button className="PricingButton">VIEW OUR PRICING</button>
             </div>
         </section>
         <section className="AppSection">
             <div className="LeftSideContent Info">
                 <p className="SubtitleContent">get our app</p>
-                <h2 className="AppHeading">browse NFTs from your smartphone</h2>
-                <p className="AppContent">Our Krypto app is the easiest way to keep track of your assets when you’re on the go</p>
+                <h2 className="AppHeading">economical blockchain, with zero gas-fee</h2>
+                <p className="AppContent">Experience zero gas fees with our app, ensuring efficient and budget-friendly transactions for all your needs.</p>
                 <button className="AppButton">DOWNLOAD ON iOS</button>
             </div>
             <div className="RightSideContent">
