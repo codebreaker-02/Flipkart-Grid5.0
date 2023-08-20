@@ -1,5 +1,5 @@
 import { useState } from "react";
-import brandLogo from "../assets/animations/coin.gif";
+import { brandLogo } from '../assets/index'
 import Button from "./Button";
 
 const Header = () => {

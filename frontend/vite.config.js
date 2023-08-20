@@ -24,7 +24,7 @@ export default defineConfig ({
             minify: true,
             inject: {
                 data: {
-                    title: 'KRYPTO - Responsive Web Page'
+                    title: 'REWARDS CLUB - Responsive Web Page'
                 }
             }
         })

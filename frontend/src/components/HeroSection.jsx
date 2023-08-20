@@ -1,30 +1,10 @@
-import backgroundBlurObject2 from "../assets/images/BackgroundEllipse.png";
-import heroImg from "../assets/images/HeroImg2.png";
-// import AnimatedSvg from "./AnimatedSvg";
-import analyticsImg from "../assets/images/AnalyticsImg.png";
-import appImg from "../assets/images/AppImg.png";
-import sellImg from "../assets/images/SellImg.png";
-import airbnbLogo from "../assets/logos/airbnb_logo.svg";
-import pumaLogo from "../assets/logos/puma_logo.svg";
-import primeVideoLogo from "../assets/logos/prime_video_logo.svg";
-import appleLogo from "../assets/logos/apple_logo.svg";
-import CompanyLogo from "../assets/logos/CompanyLogo.svg"
-import FastCompanyLogo from "../assets/logos/FastCompanyLogo.svg"
-import ForbesLogo from "../assets/logos/ForbesLogo.svg"
-import TechCrunchLogo from "../assets/logos/TechCrunchLogo.svg"
 import FaqSection from "./FaqSection"
 import TestimonialCard from "@/components/TestimonialCard";
 import Lottie from 'lottie-react'
-import blockchain1 from "../assets/animations/blockchain-2.json"
 import Button from "./Button";
 import Typical from "react-typical";
-import Furore from "../assets/images/Furore.png"
-import icon1 from "../assets/images/icon_1.png"
-import icon2 from "../assets/images/icon_2.png"
-import icon3 from "../assets/images/icon_3.png"
-import img_slider3 from "../assets/images/img_slider3.png"
-import rocket from '../assets/images/rocket.png'
-import man from "../assets/images/man.png"
+
+import { blockchain1, blockchain2, blockchain3, svgChevronDown, svgQuestionMark, analyticsImg, appImg, backgroundEllipse, furore, heroImg, heroImg2, icon1, icon2, icon3, img_slider3, logoRC, man, rocket, sellImg, airbnbLogo, appleLogo, companyLogo, fastCompanyLogo, forbesLogo, logo, primeVideoLogo, pumaLogo, techCrunchLogo } from "../assets/index.js"
 
 const HeroSection = () => {
   return (
@@ -48,7 +28,7 @@ const HeroSection = () => {
                 <div className="RightSideContent">
                     <div className="RightSideImg">
                         {/* <img src={ heroImg }></img> */}
-                        <Lottie className="animation1" animationData={blockchain1} />    
+                        <Lottie className="animation1" animationData={blockchain2} />    
                     </div>
                 </div>
             </div>
@@ -60,10 +40,10 @@ const HeroSection = () => {
                         <img src={ pumaLogo }></img>
                         <img src={ primeVideoLogo }></img>
                         <img src={ appleLogo }></img>
-                        <img src={ CompanyLogo }></img>
-                        <img src={ TechCrunchLogo }></img>
-                        <img src={ FastCompanyLogo }></img>
-                        <img src={ ForbesLogo }></img>
+                        <img src={ companyLogo }></img>
+                        <img src={ techCrunchLogo }></img>
+                        <img src={ fastCompanyLogo }></img>
+                        <img src={ forbesLogo }></img>
                     </div>
                 </div>
             </div>
@@ -100,7 +80,7 @@ const HeroSection = () => {
         <section className="SellSection">
             <div className="LeftSideContent">
                 <div class="SellImg image bg-gradient-to-r from-rose-500/70 to-purple-500/70">
-                    <img class="img_main" src={Furore} />
+                    <img class="img_main" src={furore} />
                     <div class="icon icon1">
                         <img src={icon1} />
                     </div>
