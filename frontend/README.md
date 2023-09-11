@@ -1,36 +1,8 @@
-<div align="center">
+# React + Vite
 
-<h1>React - REWARDS CLUB Responsive Web Page</h1>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-</div>
+Currently, two official plugins are available:
 
-A single web page for a reward loyalty platform and app called REWARDS CLUB.
-
- <strong>:heavy_check_mark: Features:</strong><br>
-  - Blockchain based
-  - <code>.map()</code> to render Testimonial data from respective .js files
-  - Fully responsive
-  - Optimised for the web
-
-  <strong>:nerd_face: Stacks &#38; Tools Used:</strong><br>
-<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg" alt="html5 logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-original.svg" alt="css3 logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="sass logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/postcss/brand/blob/master/dist/postcss-logo-symbol.svg"><img src="https://github.com/postcss/brand/blob/master/dist/postcss-logo-symbol.svg" alt="postcss logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/babel/babel-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/babel/babel-original.svg" alt="Babel logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/vitejs/vite/blob/main/docs/public/logo.svg"><img src="https://github.com/vitejs/vite/blob/main/docs/public/logo.svg" alt="Webpack logo" width="50" height="50" style="max-width:100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
-
-<strong>:link: Links</strong><br>
- - <a target="_blank" href="#">REWARDS CLUB - Responsive Web Page</a>
-
-<strong>Attributions</strong>
-
-
-
-<strong>Disclaimer</strong>
-
- The name 'REWARDS CLUB' used herein is solely fictional and any representation to an existing company, in part or whole, is entirely coincidental.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

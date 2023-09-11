@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { brandLogo } from '../assets/index'
+// import brandLogo from "../assets/animations/coin.gif";
 import Button from "./Button";
 
 const Header = () => {
@@ -19,7 +19,9 @@ const Header = () => {
 
     return (
         <header className="Header">
-            <span className="brandLogoSpanHeader">REWARDS CLUB <img src={ brandLogo } className="brandLogo"></img></span>
+            <span className="brandLogoSpanHeader">REWARDS CLUB 
+            {/* <img src={ brandLogo } className="brandLogo"></img> */}
+            </span>
             <nav className="HeaderNav">
                 <ul className={ active }>
                     <li className="HeaderNavListItem">about</li>

@@ -1,29 +1,27 @@
-import { createContext, useReducer } from 'react';
+import { createContext, useState } from 'react';
+import { useContract, useAddress } from '@thirdweb-dev/react';
 
 export const GlobalStateContext = createContext();
 
-const defaultGlobalData = {
-    primaryColor: 'red'
-}
-
-function reducer(state, action) {
-    switch(action.type) {
-        case 'ACTION_TYPE_STRING': {
-            // modify state
-        }
-        case 'RESET': return defaultGlobalData
-    }
-    throw Error ('Unknown Action: ' + action.type)
-}
-
 const GlobalStateProvider = ({ children }) => {
-    const [globalData, dispatch] = useReducer(reducer, defaultGlobalData);
+    const { contract } = useContract('0xf71A218C40ad49B64De20420239eE7339aeCe705');
+    const address = useAddress();
+
+    const [loading, setIsLoading] = useState(false);
+    const [isActive, setIsActive] = useState('');
+    const [role, setRole] = useState('');
 
     return (
     <GlobalStateContext.Provider
         value={{
-            globalData,
-            dispatch
+            address,
+            contract,
+            loading,
+            setIsLoading,
+            isActive,
+            setIsActive, 
+            role, 
+            setRole
         }}>
         { children }
     </GlobalStateContext.Provider>

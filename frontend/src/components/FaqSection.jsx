@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import SvgChevronDown from '../assets/icons/svgChevronDown';
 import SvgQuestionMark from '../assets/icons/svgQuestionMark';
+
 import {
   Accordion,
   AccordionBody,
   AccordionHeader,
 } from '@material-tailwind/react';
+
 import { Fragment } from 'react';
 
 const FaqSection = () => {

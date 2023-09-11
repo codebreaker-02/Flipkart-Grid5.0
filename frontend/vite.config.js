@@ -1,32 +1,12 @@
-import { defineConfig } from "vite";
-import { createHtmlPlugin } from "vite-plugin-html";
-import react from '@vitejs/plugin-react';
-import path from 'path';
-import cleanPlugin from 'vite-plugin-clean';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-export default defineConfig ({
-    root: 'src',
-    build: {
-        outDir: '../dist',
-    },
-    resolve: {
-        alias: {
-          '@': path.resolve(__dirname, './src'),
-        }
-    },
-    css: {
-        devSourcemap: true,
-    },
-    plugins: [
-        react(),
-        cleanPlugin(),
-        createHtmlPlugin({
-            minify: true,
-            inject: {
-                data: {
-                    title: 'REWARDS CLUB - Responsive Web Page'
-                }
-            }
-        })
-    ]
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8000'
+    }
+  }
 })

@@ -1,9 +1,10 @@
+
 const Container = ({component}) => {
     return (
         <main className="MainContainer">
-            <div className="BackgroundBlurObject1"></div>
+            <div style={{ zIndex: 1000 }} className="BackgroundBlurObject1"></div>
                 {component}
-            <div className="BackgroundBlurObject3"></div>
+            <div style={{ zIndex: 1000 }} className="BackgroundBlurObject3"></div>
         </main>
     )
 };

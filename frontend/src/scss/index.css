@@ -661,7 +661,7 @@ h2 {
 .image .icon.icon1 img {
   width: 100%;
   height: 100%;
-  animation: move5 5s infinite linear;
+  -webkit-animation: move5 5s infinite linear;
 }
 
 .image .icon.icon2 {
@@ -674,7 +674,7 @@ h2 {
   height: 100%;
   width: -moz-fit-content;
   width: fit-content;
-  animation: move3 5s infinite linear;
+  -webkit-animation: move3 5s infinite linear;
 }
 
 .image .icon.icon3 {
@@ -687,7 +687,7 @@ h2 {
   height: 100%;
   width: -moz-fit-content;
   width: fit-content;
-  animation: move5 5s infinite linear;
+  -webkit-animation: move5 5s infinite linear;
 }
 
 .img_slider {
@@ -705,7 +705,7 @@ h2 {
 
 .rocket {
   width: 75%;
-  animation: move6 5s infinite linear normal forwards;
+  -webkit-animation: move6 5s infinite linear normal forwards;
 }
 
 .man {
@@ -1086,10 +1086,6 @@ th,
 tr,
 td {
   padding: 8px;
-}
-
-tr:nth-child(even) td {
-  background-color: gray;
 }
 
 td:first-child {
